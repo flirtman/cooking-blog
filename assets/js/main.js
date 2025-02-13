@@ -1,5 +1,4 @@
 window.onload = function () {
-
     /**** VIDEO GALLERY ****/
     const lightBoxVideo = document.querySelector('.light-box-video')
     const videoCard = document.querySelectorAll('.video-card')
@@ -47,6 +46,24 @@ window.onload = function () {
         openBtn.classList.add('active');
         nav.style.display = "none";
     })
+
+
+    /**** Gallery ****/
+    if(window.location.pathname.includes('story.php')) {
+        const thumbs = document.querySelectorAll(".story-section .thumbs li");
+        const bigImage = document.querySelector('.img-wrapper img');
+
+        thumbs.forEach(thumb => {
+            thumb.addEventListener('click', () => {
+
+                thumbs.forEach(t => t.classList.remove('active'));
+                thumb.classList.add('active');
+
+                const src = thumb.querySelector('img').getAttribute('src');
+                bigImage.setAttribute('src', src);
+            })
+        })
+    }
 }
 
 

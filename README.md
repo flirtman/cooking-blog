@@ -1,1 +1,2 @@
 ![Banner](https://raw.githubusercontent.com/flirtman/cooking-blog/refs/heads/main/assets/imgs/preview.png)
+![Banner](https://raw.githubusercontent.com/flirtman/cooking-blog/refs/heads/main/assets/imgs/preview2.png)

@@ -29,7 +29,7 @@ $resultStory = $conn->query($sqlStory);
 
 <?php $conn->close(); ?>
 
-<script src="assets/js/story-page.js"></script>
+
 <script src="assets/js/main.js"></script>
 </body>
 </html>
