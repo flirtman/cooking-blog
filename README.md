@@ -1,0 +1,1 @@
+![Banner](https://example.com/preview.png)

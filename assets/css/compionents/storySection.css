@@ -1,0 +1,41 @@
+.story-section {
+    .row {
+        gap: 48px;
+        align-items: center;
+
+    }
+    .img-wrapper {
+        img {
+            box-sizing: border-box;
+            width: 100%;
+            border: 10px solid #fff;
+            box-shadow: var(--box-shadow);
+        }
+    }
+
+    .thumbs {
+        list-style: none;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+
+        li {
+            cursor: pointer;
+
+            img {
+                width: 100%;
+                box-sizing: border-box;
+                border: 5px solid #fff;
+                box-shadow: var(--box-shadow);
+            }
+        }
+
+        li.active {
+            img {
+                border-color: var(--primary-color);
+            }
+        }
+    }
+}
+

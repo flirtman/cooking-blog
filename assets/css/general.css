@@ -1,0 +1,107 @@
+:root {
+    --box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px, rgba(10, 37, 64, 0.35) 0 -2px 6px 0 inset;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 65px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.col {
+    flex: 1;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--primary-font), sans-serif;
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p, li, a {
+    font-family: var(--secondary-font), sans-serif;
+    font-size: 16px;
+    color: var(--secondary-color);
+    padding: 8px 0;
+}
+
+.justify-content-right {
+    display: flex;
+    justify-content: right;
+}
+
+.justify-content-left {
+    display: flex;
+    justify-content: left;
+}
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.breadcrumbs {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    background-color: #efefef;
+    padding: 4px 16px;
+    margin-bottom: 50px;
+
+    a {
+        text-decoration: none;
+        font-size: 16px;
+    }
+    a:hover {
+        color: var(--primary-color);
+    }
+    span {
+        color: var(--primary-color);
+    }
+}
+
+
+@media (max-width: 992px) {
+    .breadcrumbs {
+        a, span {
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .breadcrumbs {
+        a, span {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .breadcrumbs {
+        a, span {
+            font-size: 11px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+/*** ABOUT SECTION ***/
+.about {
+    .row {
+        align-items: center;
+        gap: 40px;
+    }
+    img {
+        max-width: 400px;
+        border: 10px solid #fff;
+        box-shadow: var(--box-shadow);
+    }
+}

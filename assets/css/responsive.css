@@ -1,0 +1,23 @@
+:root {
+    --lg: 992px;
+    --md: 768px;
+    --sm: 576px;
+}
+
+@media (max-width: 992px) {
+    .lg-flex-direction-column {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .md-flex-direction-column {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .sm-flex-direction-column {
+        flex-direction: column;
+    }
+}

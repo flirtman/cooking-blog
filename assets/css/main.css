@@ -1,0 +1,16 @@
+@import "responsive.css";
+@import "colors.css";
+@import "fonts.css";
+@import "general.css";
+
+
+/** Components **/
+@import "./compionents/header.css";
+@import "./compionents/heroSection.css";
+@import "./compionents/aboutSection.css";
+@import "./compionents/videoGallery.css";
+@import "./compionents/storiesSection.css";
+@import "./compionents/storySection.css";
+@import "./compionents/footer.css";
+
+
